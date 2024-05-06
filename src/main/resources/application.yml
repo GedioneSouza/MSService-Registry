@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: ead-service-registry
+
+eureka:
+  client:
+    registerWithEureka: false # Ele não deve ser cliente apenas o servidor
+    fetchRegistry: false # Ele não buscar um registro no Eureka
