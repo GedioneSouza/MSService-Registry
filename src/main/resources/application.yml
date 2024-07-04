@@ -7,5 +7,5 @@ spring:
 
 eureka:
   client:
-    registerWithEureka: false # Ele não deve ser cliente apenas o servidor
-    fetchRegistry: false # Ele não buscar um registro no Eureka
+    registerWithEureka: false # Ele nao deve ser cliente apenas o servidor
+    fetchRegistry: false # Ele nao busca um registro no Eureka
